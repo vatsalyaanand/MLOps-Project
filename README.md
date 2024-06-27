@@ -1,4 +1,4 @@
-# BUILDING A SCALABLE ML OPS CICD PIPELINE
+# Building a Scalable MLOps CICD Pipeline
 
 ## 1. Introduction
 This project is an end-to-end Machine Learning Operations (MLOps) initiative designed to incorporate Continuous Ingestion and Continuous deployment (CI/CD) Pipelines which can be scalable and efficient. The process highlights modular coding was used for all the processes like data ingestion, transformation, and model trainer. After successful creation of the machine learning model, it was seamlessly integrated with Flask, HTML and CSS to have a web front end where the user could interact with it. Docker was utilised to create an image and container and with the help of GitHub Action it was pushed to the Amazon Elastic Container Registry (Amazon ECR). And finally, was deployed on the Elastic Compute Cloud (EC2) instance. This model gets automatically updated whenever any change is made in the main branch of GitHub making it fully autonomous and up to date using CI/CD.
@@ -6,7 +6,7 @@ This project is an end-to-end Machine Learning Operations (MLOps) initiative des
 ## 2. Background 
 Nowadays more and more companies are pushing towards cloud solutions. Making models 
 in Jupyter Notebook or Google Colab with Python is just scratching the surface on much 
-wider application. While they are great tool for analysis of data and making insights out it, 
+wider application. While they are great tool for analysis of data and making insights out it, cd
 deploying it in a much scalable and production level is challenging. When trying to use the 
 model in real world application we need to think in a different approach. CI/CD help 
 automate the process of making changes in the code and deploying it right away with as 
