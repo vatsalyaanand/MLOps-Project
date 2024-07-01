@@ -66,14 +66,14 @@ The project leverages several technologies:
 ## Setup and Deployment
 
 1. **Environment Setup**:
-   - Clone the repository: `git clone <repository-url>`
+   - Clone the repository: `git clone https://github.com/vatsalyaanand/MLOps-Project`
    - Install dependencies: `pip install -r requirements.txt`
 
 2. **Running Locally**:
    - Run the Flask application: `python app.py`
 
 3. **Deployment**:
-   - Build Docker image: `docker build -t <image-name> .`
+   - Build Docker image: `docker build -t Dockerfile .`
    - Push image to Amazon ECR.
    - Deploy on AWS EC2 using the configured Docker container.
 
