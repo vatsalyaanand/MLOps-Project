@@ -79,5 +79,3 @@ The project leverages several technologies:
 
 4. **CI/CD Configuration**:
    - GitHub Actions are configured to automate the CI/CD process. Ensure AWS credentials are set in GitHub Secrets.
-
-
